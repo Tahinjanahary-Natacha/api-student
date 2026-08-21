@@ -1,3 +1,19 @@
+# Dépendances Node
 node_modules/
+**/node_modules/
+
+# Fichiers d'environnement et secrets
 .env
+*.env
+**/.env
+
+# Dossiers de build
 dist/
+**/dist/
+build/
+
+# Fichiers de configuration IDE & Système
+.idea/
+.vscode/
+.DS_Store
+*.log
