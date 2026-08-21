@@ -11,7 +11,7 @@ const port: number = Number(process.env.PORT) || 3000;
 
 // Configuration de CORS
 app.use(cors({
-  origin: '*', // Permet toutes les origines (à restreindre en production si besoin)
+  origin: '*',
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
